@@ -1,15 +1,15 @@
 @import '../../pages/styles/variables';
 
 .nav {
-	position: relative;
+	// position: relative;
 	z-index: 999;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
-	// height: 15rem;
-	// margin: 0.5rem 3rem;
-	position: fixed;
+	// width: 100%;
+	// height: 13rem;
+	margin: 1.5rem 3rem;
+	// position: fixed;
 	background-color: $background-color;
 
 	// &:first-child {
@@ -20,15 +20,15 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		// background-color: red;
 		align-items: flex-end;
-		justify-content: space-between;
+		// background-color: red;
+		// justify-content: space-between;
 		// justify-content: space-evenly;
 	}
 
 	.logo-container,
 	#contact {
-		margin: 1.5rem 3rem;
+		// margin: 1.5rem 3rem;
 	}
 
 	#phone,
@@ -38,10 +38,10 @@
 		align-items: center;
 		justify-content: center;
 		span {
-			font-size: 1.5vw;
-
-			color: $primary-color;
 			display: inline-block;
+			font-size: 1.8rem;
+			color: $primary-color;
+
 			margin-right: 1rem;
 		}
 	}
@@ -51,10 +51,10 @@
 	}
 
 	#logo {
-		width: 22vw;
+		width: 25rem;
 	}
 }
 
 .icon {
-	width: 1.5vw;
+	// width: 1.5vw;
 }

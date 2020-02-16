@@ -1,3 +1,41 @@
+@import '../../pages/styles/variables';
+
+.benefits {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	// padding: 13rem 0;
+	flex-wrap: wrap;
+}
+
 .card {
-	width: 25vw;
+	width: 45rem;
+	background-color: $background-color;
+	padding: 4rem 6rem;
+	border-radius: 3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 5rem;
+
+	box-shadow: 4px 4px 2rem rgba(0, 0, 0, 0.25), -4px -4px 2rem rgba(255, 255, 255, 0.95);
+
+	&__illustration {
+		margin-bottom: 5rem;
+		// width: 5vw;
+		// font-size: 5vw;
+	}
+
+	&__description {
+		// max-width: 80%;
+		p {
+			font-size: 3rem;
+			color: $primary-color;
+		}
+	}
+}
+
+.benefit-icon {
+	width: 100%;
 }

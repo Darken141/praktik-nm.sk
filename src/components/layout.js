@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
 	`);
 
 	return (
-		<React.Fragment>
+		<div className="app-container">
 			<Navbar siteTitle={data.site.siteMetadata.title} />
 
 			<main>{children}</main>
@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
 				{` `}
 				<a href="https://www.gatsbyjs.org">Gatsby</a>
 			</footer>
-		</React.Fragment>
+		</div>
 	);
 };
 
