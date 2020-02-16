@@ -1,0 +1,40 @@
+@import './variables';
+
+.heading-section {
+	padding-top: 13rem;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	.title {
+		max-width: 60%;
+		position: relative;
+		z-index: 1;
+		.main-heading {
+			color: $primary-color;
+			font-size: 7.6rem;
+		}
+	}
+
+	.illustration {
+		// position: relative;
+		img {
+			position: absolute;
+			right: 0;
+			max-width: 650px;
+		}
+
+		.vector-sink {
+			position: absolute;
+			width: 50vw;
+			right: 200px;
+			bottom: 80px;
+		}
+	}
+}
+
+.benefits {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 13rem 0;
+}

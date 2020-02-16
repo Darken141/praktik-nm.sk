@@ -1,21 +1,53 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import sink from '../images/sink.png';
 
-export default IndexPage
+import Experience from '../assets/vector_experiece.svg';
+import Products from '../assets/vector_products.svg';
+import VectorSink from '../assets/vector_sink.svg';
+
+import Card from '../components/card/card';
+
+import './styles/index.scss';
+
+const IndexPage = () => {
+	const cardsInformations = [
+		{
+			id: 1,
+			image: Experience,
+			content: 'Viac ako 15 rokov skúseností'
+		},
+		{
+			id: 2,
+			image: Products,
+			content: 'produktov	prispôsobených moderným trendom'
+		}
+	];
+
+	return (
+		<Layout>
+			<SEO title="Home" />
+			<section className="heading-section">
+				<div className="illustration">
+					<img src={sink} alt="sink background" />
+					<div>
+						<VectorSink className="vector-sink" />
+					</div>
+				</div>
+
+				<div className="title">
+					<h1 className="main-heading">VODOINŠTALAČNÝ MATERIÁL</h1>
+				</div>
+			</section>
+
+			<section className="benefits">
+				{cardsInformations.map(({ id, image, content }) => <Card key={id} Image={image} content={content} />)}
+			</section>
+		</Layout>
+	);
+};
+
+export default IndexPage;

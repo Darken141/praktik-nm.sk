@@ -1,0 +1,60 @@
+@import '../../pages/styles/variables';
+
+.nav {
+	position: relative;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	// height: 15rem;
+	// margin: 0.5rem 3rem;
+	position: fixed;
+	background-color: $background-color;
+
+	// &:first-child {
+	// 	width: 8vw;
+	// }
+	#contact {
+		// height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// background-color: red;
+		align-items: flex-end;
+		justify-content: space-between;
+		// justify-content: space-evenly;
+	}
+
+	.logo-container,
+	#contact {
+		margin: 1.5rem 3rem;
+	}
+
+	#phone,
+	#email {
+		// width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		span {
+			font-size: 1.5vw;
+
+			color: $primary-color;
+			display: inline-block;
+			margin-right: 1rem;
+		}
+	}
+
+	#phone {
+		margin-bottom: 1rem;
+	}
+
+	#logo {
+		width: 22vw;
+	}
+}
+
+.icon {
+	width: 1.5vw;
+}
