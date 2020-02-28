@@ -5,6 +5,13 @@ module.exports = {
 		author: `@coderkin`
 	},
 	plugins: [
+		// {
+		// 	resolve: 'gatsby-source-googlemaps-geocoding',
+		// 	options: {
+		// 		key: 'AIzaSyAWJm6cxzq48liRWhS45Otn0DnfncMvc_k',
+		// 		address: 'Slovakia'
+		// 	}
+		// },
 		{
 			resolve: 'gatsby-plugin-react-svg',
 			options: {

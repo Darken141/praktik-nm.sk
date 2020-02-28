@@ -1,0 +1,43 @@
+@import '../../pages/styles/variables';
+
+.contact__container {
+	margin: 0 auto;
+	width: 80%;
+	background-color: $background-color;
+	padding: 4rem 6rem;
+	border-radius: 3rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 13rem;
+
+	box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.1), -10px -10px 3rem rgba(255, 255, 255, 0.15);
+
+	h3 {
+		font-size: 3rem;
+		color: $primary-color;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1.8rem;
+		color: $primary-color;
+		margin-bottom: .5rem;
+	}
+
+	p:last-child {
+		margin-bottom: 1rem;
+	}
+
+	@media all and (max-width: 50em) {
+		width: 100%;
+		padding: 1rem 4rem;
+
+		h3 {
+			font-size: 2rem;
+		}
+
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}

@@ -11,6 +11,8 @@
 
 html {
 	font-size: 62.5%;
+	@media all and (max-width: 50em) {
+	}
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 
 	.app-container {
-		max-width: 150rem;
+		max-width: 160rem;
 		margin: 0 auto;
 	}
 
@@ -28,4 +30,11 @@ body {
 		// margin: 0 auto;
 		margin: 0 3rem;
 	}
+}
+
+.heading {
+	color: $primary-color;
+	margin-bottom: 5rem;
+	font-size: 6rem;
+	text-align: center;
 }

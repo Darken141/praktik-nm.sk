@@ -1,34 +1,95 @@
 @import './variables';
 
-.heading-section {
+#heading-section {
 	margin: 3rem 0;
-	// padding-top: 13rem;
 	position: relative;
 	width: 100%;
-	min-height: 85vh;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 13rem;
+
 	.title {
-		max-width: 60%;
+		width: 50%;
 		position: relative;
 		z-index: 1;
 		.main-heading {
 			color: $primary-color;
 			font-size: 7.6rem;
+			margin-bottom: 3rem;
 		}
 	}
 
 	.illustration {
-		position: absolute;
-		right: 0;
+		justify-self: center;
+		position: relative;
+
 		img {
-			right: 0;
 			max-width: 650px;
 		}
 
 		.vector-sink {
 			position: absolute;
 			width: 50rem;
-			right: 35rem;
+			left: -20rem;
 			bottom: 0;
+		}
+	}
+
+	@media screen and (max-width: 84.75em) {
+		flex-direction: column;
+		align-items: center;
+
+		.title {
+			width: 100%;
+			position: relative;
+			z-index: 1;
+			.main-heading {
+				color: $primary-color;
+				font-size: 7.6rem;
+				margin-bottom: 3rem;
+				text-align: center;
+			}
+		}
+
+		.illustration {
+			justify-self: center;
+			position: relative;
+			margin-bottom: 5rem;
+
+			img {
+				right: 0;
+				max-width: 65rem;
+			}
+
+			.vector-sink {
+				position: absolute;
+				width: 50rem;
+				left: -10rem;
+				bottom: -7rem;
+			}
+		}
+	}
+
+	@media all and (max-width: 50em) {
+		margin-bottom: 5rem;
+
+		.title {
+			.main-heading {
+				font-size: 4rem;
+			}
+		}
+
+		.illustration {
+			img {
+				max-width: 30rem;
+			}
+
+			.vector-sink {
+				position: absolute;
+				width: 15rem;
+				left: -5rem;
+				bottom: -15rem;
+			}
 		}
 	}
 }

@@ -26,10 +26,10 @@
 		// justify-content: space-evenly;
 	}
 
-	.logo-container,
-	#contact {
-		// margin: 1.5rem 3rem;
-	}
+	// .logo-container,
+	// #contact {
+	// 	// margin: 1.5rem 3rem;
+	// }
 
 	#phone,
 	#email {
@@ -53,8 +53,26 @@
 	#logo {
 		width: 25rem;
 	}
-}
 
-.icon {
-	// width: 1.5vw;
+	@media all and (max-width: 50em) {
+		#phone,
+		#email {
+			span {
+				font-size: 1.4rem;
+				margin-right: .5rem;
+			}
+
+			svg {
+				width: 1.4rem;
+			}
+		}
+
+		#phone {
+			margin-bottom: .2rem;
+		}
+
+		#logo {
+			width: 15rem;
+		}
+	}
 }

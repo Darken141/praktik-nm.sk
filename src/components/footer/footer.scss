@@ -1,0 +1,18 @@
+@import '../../pages/styles/variables';
+
+footer {
+	max-width: 160rem;
+	margin: 0 auto;
+	background-color: $primary-color;
+	padding: 4rem;
+
+	display: flex;
+	justify-content: space-evenly;
+
+	h2 {
+		color: rgba($color: #fff, $alpha: 0.65);
+		font-size: 3rem;
+		font-weight: lighter;
+		letter-spacing: 1.5px;
+	}
+}
