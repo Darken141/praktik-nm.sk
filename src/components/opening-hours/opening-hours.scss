@@ -40,4 +40,13 @@
 			}
 		}
 	}
+
+	@media all and (max-width: 30rem) {
+		.table {
+			color: $primary-color;
+			font-size: 1.4rem;
+
+			box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.1), -10px -10px 3rem rgba(255, 255, 255, 0.15);
+		}
+	}
 }

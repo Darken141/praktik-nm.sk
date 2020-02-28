@@ -75,4 +75,26 @@
 			width: 15rem;
 		}
 	}
+
+	@media all and (max-width: 30rem) {
+		#phone,
+		#email {
+			span {
+				font-size: 1rem;
+				margin-right: .5rem;
+			}
+
+			svg {
+				width: 1rem;
+			}
+		}
+
+		#phone {
+			margin-bottom: .2rem;
+		}
+
+		#logo {
+			width: 10rem;
+		}
+	}
 }

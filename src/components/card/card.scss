@@ -57,6 +57,28 @@
 			}
 		}
 	}
+
+	@media all and (max-width: 30rem) {
+		width: 25rem;
+		margin-bottom: 7rem;
+		// align-items: flex-start;
+
+		&__illustration {
+			margin-bottom: 1rem;
+			svg {
+				width: 15rem;
+				height: 15rem;
+			}
+		}
+
+		&__description {
+			// max-width: 80%;
+			p {
+				font-size: 1.6rem;
+				color: $primary-color;
+			}
+		}
+	}
 }
 
 .benefit-icon {

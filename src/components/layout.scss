@@ -38,3 +38,11 @@ body {
 	font-size: 6rem;
 	text-align: center;
 }
+
+@media all and (max-width: 30rem) {
+	.heading {
+		margin-bottom: 3rem;
+		font-size: 2rem;
+		text-align: center;
+	}
+}
