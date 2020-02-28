@@ -42,9 +42,17 @@
 	}
 
 	@media all and (max-width: 30rem) {
+		.content {
+			svg {
+				height: 30rem;
+				// margin-bottom: 5rem;
+				margin: 5rem 0;
+			}
+		}
 		.table {
 			color: $primary-color;
 			font-size: 1.4rem;
+			padding: 2rem 3rem;
 
 			box-shadow: 10px 10px 3rem rgba(0, 0, 0, 0.1), -10px -10px 3rem rgba(255, 255, 255, 0.15);
 		}
