@@ -70,7 +70,7 @@ const IndexPage = () => {
 
 	return (
 		<Layout>
-			<SEO title="Home" />
+			<SEO title="Predajňa PRAKTIK Nové Mesto Nad Váhom" />
 			<section id="heading-section">
 				<div className="title">
 					<h1 className="main-heading">VODOINŠTALAČNÝ MATERIÁL</h1>
