@@ -106,18 +106,44 @@ body {
 			}
 		}
 	}
+
+	@media all and (max-width: 480px) {
+		p {
+			color: $background-color;
+			margin-bottom: 0.5rem;
+			font-size: 1.6rem;
+			text-align: center;
+		}
+		form {
+			input {
+				padding: 0.5rem;
+				margin-bottom: 1rem;
+				font-size: 1.8rem;
+			}
+
+			textarea {
+				padding: 0.5rem;
+				font-size: 1.8rem;
+			}
+
+			button {
+				padding: 0.5rem;
+				font-size: 1.8rem;
+			}
+		}
+	}
 }
 
 @media all and (max-width: 480px) {
 	.heading {
 		margin-bottom: 3rem;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		text-align: center;
 	}
 
 	.heading-light {
 		margin-bottom: 3rem;
-		font-size: 1.8rem;
+		font-size: 2.2rem;
 		text-align: center;
 	}
 }
