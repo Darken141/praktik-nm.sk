@@ -48,7 +48,7 @@ body {
 
 #contact-us {
 	background-color: $primary-color;
-	padding: 3rem;
+	padding: 5rem 3rem;
 	margin-bottom: 10rem;
 	border-radius: 5px;
 
@@ -110,6 +110,12 @@ body {
 
 @media all and (max-width: 480px) {
 	.heading {
+		margin-bottom: 3rem;
+		font-size: 1.8rem;
+		text-align: center;
+	}
+
+	.heading-light {
 		margin-bottom: 3rem;
 		font-size: 1.8rem;
 		text-align: center;

@@ -86,10 +86,11 @@ const IndexPage = () => {
 			<section id="contact-us">
 				<h2 className="heading-light">Napíšte nám</h2>
 				<p>
-					Z dôvodu nariadenia vlády zo dňa 15.3.2020 proti šíreniu COVID-19 je kamenná predajňa zatvorená do
-					odvolania.
+					Z dôvodu nariadenia vlády zo dňa 15.3.2020 proti šíreniu COVID-19 je kamenná predajňa PRAKTIK
+					zatvorená do odvolania.
 				</p>
 				<p>Avšak nemali by sme dopustiť aby v tíchto dňoch bola akákolvek domácnosť bez vody.</p>
+				<p>Neváhajte nas v prípade potreby kontaktovať.</p>
 
 				<form action="https://getform.io/f/05565fe4-35b5-4ac3-a12a-2dfea583ea63" method="POST">
 					<input type="text" name="name" placeholder="Meno" required />
