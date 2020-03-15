@@ -83,6 +83,26 @@ const IndexPage = () => {
 				</div>
 			</section>
 
+			<section id="contact-us">
+				<h2 className="heading-light">Napíšte nám</h2>
+				<p>
+					Z dôvodu nariadenia vlády zo dňa 15.3.2020 proti šíreniu COVID-19 je kamenná predajňa zatvorená do
+					odvolania.
+				</p>
+				<p>Avšak nemali by sme dopustiť aby v tíchto dňoch bola akákolvek domácnosť bez vody.</p>
+
+				<form action="https://getform.io/f/05565fe4-35b5-4ac3-a12a-2dfea583ea63" method="POST">
+					<input type="text" name="name" placeholder="Meno" required />
+					<input type="email" name="email" placeholder="E-mail" required />
+					<input type="tel" name="tel" placeholder="+421 123 456 789" required />
+					<textarea id="message" name="message" rows="4" cols="50">
+						Dobrý deň, potreboval by som pomôcť/poradiť s ...
+					</textarea>
+					{/* <input type="tel" name="tel"/> */}
+					<button type="submit">Odoslať</button>
+				</form>
+			</section>
+
 			<section id="benefits">
 				{cardsInformations.map(({ id, image, content }) => <Card key={id} Image={image} content={content} />)}
 			</section>

@@ -39,6 +39,75 @@ body {
 	text-align: center;
 }
 
+.heading-light {
+	color: $background-color;
+	margin-bottom: 5rem;
+	font-size: 6rem;
+	text-align: center;
+}
+
+#contact-us {
+	background-color: $primary-color;
+	padding: 3rem;
+	margin-bottom: 10rem;
+	border-radius: 5px;
+
+	p {
+		color: $background-color;
+		margin-bottom: 1rem;
+		font-size: 2rem;
+		text-align: center;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+
+		input {
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid $background-color;
+			padding: 1rem;
+			margin-bottom: 2rem;
+			display: block;
+			font-size: 2.2rem;
+			color: #fff;
+
+			font-family: inherit;
+
+			&::placeholder {
+				color: $background-color;
+			}
+		}
+
+		textarea {
+			resize: none;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid $background-color;
+			padding: 1rem;
+			margin-bottom: 2rem;
+			display: block;
+			font-size: 2.2rem;
+			color: #fff;
+		}
+
+		button {
+			cursor: pointer;
+			padding: 1rem;
+			font-size: 2.2rem;
+			font-family: inherit;
+			text-transform: uppercase;
+			border: none;
+			background-color: $background-color;
+			color: $primary-color;
+
+			&:hover {
+				background-color: lighten($background-color, 10);
+			}
+		}
+	}
+}
+
 @media all and (max-width: 480px) {
 	.heading {
 		margin-bottom: 3rem;

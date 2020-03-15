@@ -11,7 +11,7 @@ const Navbar = () => (
 		<div className="logo-container">
 			<Logo id="logo" />
 		</div>
-		<div id="contact">
+		<div id="contact-details">
 			<div id="phone">
 				<span>032 7430 351</span>
 				<PhoneIcon className="icon" />
