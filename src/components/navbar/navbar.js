@@ -13,7 +13,7 @@ const Navbar = () => (
 		</div>
 		<div id="contact-details">
 			<div id="phone">
-				<span>032 7430 351</span>
+				<span>+421 949 253 305</span>
 				<PhoneIcon className="icon" />
 			</div>
 			<div id="email">

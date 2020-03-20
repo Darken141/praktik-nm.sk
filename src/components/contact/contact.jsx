@@ -14,7 +14,7 @@ const Contact = () => {
 
 			<div>
 				<h3>Kontakt</h3>
-				<p>+421 327 430 351</p>
+				<p>+421 949 253 305</p>
 				<p>predajnapraktik@outlook.sk</p>
 			</div>
 		</div>
